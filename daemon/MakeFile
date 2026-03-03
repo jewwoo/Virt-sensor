@@ -1,0 +1,11 @@
+CC=gcc
+CFLAGS=-O2 -Wall -Wextra -Wpedantic
+BIN=virt_sensord
+
+all: $(BIN)
+
+$(BIN): virt_sensord.c
+	$(CC) $(CFLAGS) -o $(BIN) virt_sensord.c
+
+clean:
+	rm -f $(BIN)
