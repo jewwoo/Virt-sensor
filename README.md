@@ -1,4 +1,4 @@
-# virt-sensor — Linux char device + epoll daemon + HTTP API
+# virt-sensor(Virtual Sensor) — Linux char device + epoll daemon + HTTP API
 
 embedded Linux style stack:
 - **Kernel module (C)** exposes a virtual sensor as a **character device**: `/dev/virt_sensor0`
